@@ -1,6 +1,6 @@
 # Prop Auction
 
-Arsenal applies Last Price Dutch Auction pattern to auction fixed numbers of Props every day.
+Auction house applies Last Price Dutch Auction pattern to auction fixed numbers of Props every day.
 
 1. Every day from 00:00(UTC), 10 types of Props are available for biding
 2. Props will reduce $Energy price by 2% every 10 blocks (about 2 mins)

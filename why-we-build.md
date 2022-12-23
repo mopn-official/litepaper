@@ -8,7 +8,7 @@ r/place is quite a successful activity held by Reddit on April Fool 2017. The ru
 
 ### MOPN
 
-Enlightened by r/place, we came up with the idea of MOPN.&#x20;
+Inspired by r/place, we came up with the idea of MOPN.&#x20;
 
 The idea is to build an open map with simple rules. The map is 100% deployed on Ethereum, cannot be upgraded and any NFT holder is free to play.&#x20;
 

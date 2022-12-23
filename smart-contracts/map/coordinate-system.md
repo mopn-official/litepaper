@@ -15,7 +15,7 @@ Let's take a cube grid and slice out a diagonal plane at `x + y + z = 0`. It hel
 
 Study how the cube coordinates work on the hex grid.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 1. Each direction on the cube grid corresponds to a _line_ on the hex grid.&#x20;
 2. Each direction on the hex grid is a combination of _two_ directions on the cube grid. For example, northwest on the hex grid lies between the `+y` and `-z`, so every step northwest involves adding 1 to y and subtracting 1 from z.

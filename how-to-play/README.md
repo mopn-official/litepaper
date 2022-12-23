@@ -6,4 +6,4 @@ NFTs from the same Collection are treated as one [Alliance](account-system.md#al
 
 [$Energy](../economic-system/usdenergy/) can be distributed to the [Alliance](account-system.md#alliance) members based on occupied [Blocks](map-system.md#block) of the collection.&#x20;
 
-[$Energy](../economic-system/usdenergy/) can be used to buy [Props](../economic-system/usdprop/) in [Arsenal](../economic-system/usdprop/prop-auction.md) (using Last Price Dutch Auction Pattern). [Props](prop-system.md) will gain advantages for players to occupy more blocks.
+[$Energy](../economic-system/usdenergy/) can be used to buy [Props](../economic-system/prop/) in [Auction House](../economic-system/prop/prop-auction.md) (using Last Price Dutch Auction Pattern). [Props](prop-system.md) will gain advantages for players to occupy more blocks.
