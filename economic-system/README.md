@@ -6,5 +6,5 @@ The whole economic system of MOPN is driven by unupgradable contracts. And there
 
 Props are activated on the[ Block](../how-to-play/map-system.md#block), after using it will burn 100%. And the [Pass holder ](pass/)of the block will have 0-6% recycled $Energy based on the [Block level](usdenergy/block-level.md) and the price of the Prop. 1% will be recycled by the MOPN team as the protocol income to maintain development of MOPN.
 
-<figure><img src="../.gitbook/assets/Economic Cycle of MOPN (1).png" alt=""><figcaption><p>Economic Cycle of MOPN</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Economic Cycle of MOPN.png" alt=""><figcaption><p>Economic Cycle of MOPN</p></figcaption></figure>
 
