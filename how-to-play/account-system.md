@@ -35,3 +35,7 @@ There are 3 types of attributes of avatar on the map:
 * HP: when HP=0, avatar is dead and the NFT will be removed from the map
 * ATT: Damage to HP of the enemy
 * STA: 1 cost of STA to move 1 block on the map
+
+## NFT Space
+
+Each NFT has its own space.Connecting wallet owning (or owned) the NFT can leave messages in the NFT space. All the messages will be stored with the NFT. Anyone can view the messages to read the stories of the NFT in space.

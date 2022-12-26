@@ -1,9 +1,11 @@
 # Introduction
 
-1. MOPN，the Map Of PFP NFTs，MOPN is the first MMOC-SLG (Massively Multiplayer On Chain Simulation Game) deployed on Ethereum Mainnet. It is fully on chain,and cannot be taken down or censored by anyone.
-2. MOPN is a hexagon Map for NFT collections to occupy. NFT holders can use strategy to occupy more blocks to gain group glory and earn $Energy and $Props just by placing and moving their NFTs on the map.
-3. MOPN will open source all the smart contracts and client codes. Anyone can directly interact with MOPN contracts without using MOPN clients. After launching on Mainnet, MOPN will also give away the rights to contract upgrade, and make MOPN a **perpetual game** existing on Blockchain.
-4. MOPN is still under development. Litepaper will keep updating during MOPN development. You are welcome to join MOPN's community to provide help and great ideas.
+1. MOPN，the Map Of PFP NFTs，is a dynamic map recording all the history of the NFT industry. It is fully on chain, all logic and status are deployed on Ethereum Mainnet.
+2. Players can interact with MOPN contract with ethereum wallet. NFTs from the same collection are treated as one alliance. The core gameplay is to occupy more blocks on the map for the alliance.
+3. Occupied blocks are the region of the alliance. Regions generate tradable $Energy, which can also buy props in MOPN. The props will gain advantages for players in the war of occupying more blocks.
+4. MOPN will generate a dynamic map of all the NFT collections based on the region changing of each alliance. The changing process will be recorded in Time Capsules.
+5. MOPN will open source all the smart contracts and client codes. Anyone can directly interact with MOPN contracts using costumrized clients. After launching on Mainnet, MOPN will also give away the rights to contract upgrade, and make MOPN a **perpetual game** existing on Blockchain.
+6. MOPN is still under development. Litepaper will keep updating during MOPN development. You are welcome to join MOPN's community to provide help and great ideas.
 
 ****[**Twitter** ](https://twitter.com/Mopnxyz)
 

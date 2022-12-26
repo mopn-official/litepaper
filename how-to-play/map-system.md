@@ -31,3 +31,7 @@ War will happen when the regions of two alliances overlap.
 The region of the collection is all the region occupied by NFTs from the collection. On the map, it shows as same colour and badge.
 
 <figure><img src="../.gitbook/assets/The region of the collection.png" alt=""><figcaption></figcaption></figure>
+
+## **Time Capsule**&#x20;
+
+Every 72 hours, a time capsule recording all the behaviors in the past 72 hours on the map will be listed in the auction house.
