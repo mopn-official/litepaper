@@ -15,7 +15,7 @@ Inspired by r/place, we came up with the idea of MOPN. The idea is to build an o
 3. War will happen with a certain number of NFT holders placing their NFTs on the map, since the blocks are countable. Tokens will consume in the war to maintain the balance of the whole economic system.
 
 \
-The map is the battlefield of NFT collections. It is also a graphical ranking list of the heat level of all PFP NFT collections. The region changing on the map collections is not only about benefits but also the position in the NFT industry of the collection. All the changes will be recorded in the time capsules of MOPN being a part of NFT industrial history.\
+The map is the battlefield of NFT collections. It is also a **graphical ranking list** of the heat level of all PFP NFT collections. The region changing on the map collections is not only about benefits but also the position in the NFT industry of the collection. All the changes will be recorded in the time capsules of MOPN being a part of NFT industrial history.\
 
 
 > What is Unite to Earn？
