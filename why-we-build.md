@@ -24,20 +24,20 @@ The map is the battlefield of NFT collections. It is also a **graphical ranking 
 >
 > We name this innovation pattern "Unite to earn"
 
-### Value
+## Value
 
-#### Earn
+### Earn
 
 To earn $Energy, all you need to do is place your NFT on the map and try your best to stay alive.
 
-#### Fun
+### Fun
 
 $Energy can buy props with various abilities. Through strategies of props using, tactics of place\&move and diplomacy, collections may perform the plot of defeating the strong by the weak. Fun comes from the strategic thinking of an MMO-SLG (massive multiplayer onchain simulation game).
 
-#### Glory
+### Glory
 
 Defeat the strong, occupy more regions, place a better position. All these are not just to earn, it is the reflection of a united and powerful community. Bigger regions bring more attention and more new blood to join in the community.
 
-#### Record
+### Record
 
 Each PFP NFT is not a set of digital data. It is a unique piece of art collection perpetual existing in Crypto world. It beyond the dimension of life of human beings, it is the testimony of history. And what MOPN records is an eternal historical scroll created by all PFP NFT holders.
