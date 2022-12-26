@@ -10,7 +10,7 @@ Each NFT on the collection list is an avatar in MOPN.&#x20;
 
 In one account, there may be multiple avatars.&#x20;
 
-Players can place avatat on the map to occupy region, and can also remove avatar from the map.&#x20;
+Players can place avatar on the map to occupy region, and can also remove avatar from the map.&#x20;
 
 If the NFT is transferred from the wallet, the related avatar will also disappear from the account.&#x20;
 

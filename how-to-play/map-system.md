@@ -10,11 +10,11 @@ The thumbnail of the map is shown below:
 
 ## Block
 
-Block is the basic unit on the map,and it is also a hexagon. For each block, a NFT can be placed.
+Block is the basic unit on the map, and it is also a hexagon. For each block, a NFT can be placed.
 
 ## Coordinate
 
-Each block on the map has a unique coordinate. Cube coordinates are used to indentify the block as (x,y,z), for any coordinate, x+y+z=0.
+Each block on the map has a unique coordinate. Cube coordinates are used to identify the block as (x,y,z), for any coordinate, x+y+z=0.
 
 <figure><img src="../.gitbook/assets/Coordinate.png" alt=""><figcaption></figcaption></figure>
 

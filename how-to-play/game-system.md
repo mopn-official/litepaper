@@ -53,10 +53,10 @@ War will happen when the regions of two alliances overlap.War rules:
 
 * From 12 o'clock of the avatar, detection of overlap block clockwise
 * If there is an overlap block, war will begin between avatars occupying the region:
-  * If there is more than one enermy on the overlap block, the war rotation is below:
-  * From 12 o'clock of the avatar, war with each enermy clockwise
+  * If there is more than one enemy on the overlap block, the war rotation is below:
+  * From 12 o'clock of the avatar, war with each enemy clockwise
 
 <figure><img src="../.gitbook/assets/War.png" alt=""><figcaption></figcaption></figure>
 
-During the war, ATT will contiously cost HP from both sides until the HP of anyone is 0. Defeated one will be removed from the map.\
+During the war, ATT will continuously cost HP from both sides until the HP of anyone is 0. Defeated one will be removed from the map.\
 The war will end until the region no longer overlapped.

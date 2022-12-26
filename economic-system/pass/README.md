@@ -1,6 +1,6 @@
 ---
 description: >-
-  MOPN is a community project from the first day. Pass is supportor proof for
+  MOPN is a community project from the first day. Pass is supporter proof for
   community members of MOPN.
 ---
 
@@ -18,7 +18,7 @@ There are 999,271 blocks on the Map, and each Pass has 91 blocks, which makes th
 
 </div>
 
-## Pass holders will have the previleges
+## Pass holders will have the privileges
 
 1. Community Governance
 2. $Energy Recycling

@@ -11,4 +11,4 @@ Auction house applies Last Price Dutch Auction pattern to auction fixed numbers 
 
 <figure><img src="../../.gitbook/assets/Prop Auction.png" alt=""><figcaption></figcaption></figure>
 
-**LPDA is helpful for easing the biding concerns in order to have a more realistic reflection of the relationship of demending**
+**LPDA is helpful for easing the biding concerns in order to have a more realistic reflection of the relationship of demanding.**
