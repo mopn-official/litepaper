@@ -49,12 +49,14 @@ The cost of STA to move from block a to b, formula is below:
 
 ## War
 
-War will happen when the regions of two alliances overlap.War rules:
+War will happen when the regions of two alliances overlap.
 
-* From 12 o'clock of the avatar, detection of overlap block clockwise
+War rules:
+
+* From 12 o'clock of the avatar, detection of overlap block clockwise.
 * If there is an overlap block, war will begin between avatars occupying the region:
-  * If there is more than one enemy on the overlap block, the war rotation is below:
-  * From 12 o'clock of the avatar, war with each enemy clockwise
+  * If there is more than one enemy on the overlap block, the war rotation is below.
+  * From 12 o'clock of the avatar, war with each enemy clockwise.
 
 <figure><img src="../.gitbook/assets/War.png" alt=""><figcaption></figcaption></figure>
 
