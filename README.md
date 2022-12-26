@@ -9,6 +9,6 @@
 
 ****[**Twitter** ](https://twitter.com/Mopnxyz)
 
-****[**Discord**](https://discord.com/invite/n9EKMPeqxE)****
+****[**Discord**](https://discord.com/invite/eXaPzPdb2j)****
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p><strong>MOPN Prototype</strong></p></figcaption></figure>
