@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Overview](README.md)
 * [Why We Build](why-we-build.md)
 * [How To Play](how-to-play/README.md)
   * [Map System](how-to-play/map-system.md)
