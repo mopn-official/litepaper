@@ -4,6 +4,8 @@
 
 The place rule is that the same alliance region must be contiguous or overlapped.
 
+<figure><img src="../.gitbook/assets/Partmap1" alt=""><figcaption></figcaption></figure>
+
 <div>
 
 <figure><img src="../.gitbook/assets/PLACE-1.png" alt=""><figcaption></figcaption></figure>
