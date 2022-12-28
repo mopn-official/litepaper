@@ -1,6 +1,6 @@
-# Introduction
+# Overview
 
-1. MOPN，the Map Of PFP NFTs，is a dynamic map recording all the history of the NFT industry. It is fully on chain, all logic and status are deployed on Ethereum Mainnet.
+1. MOPN，the Map Of PFP NFTs，is a dynamic map recording all the history of the NFT industry. All logic and status are deployed on Ethereum Mainnet, which makes MOPN also a fully on-chain game.
 2. Players can interact with MOPN contract with ethereum wallet. NFTs from the same collection are treated as one alliance. The core gameplay is to occupy more blocks on the map for the alliance.
 3. Occupied blocks are the region of the alliance. Regions generate tradable $Energy, which can buy props in MOPN. The props will gain advantages for players in the war of occupying more blocks.
 4. MOPN will generate a dynamic map of all the NFT collections based on the region changing of each alliance. The changing process will be recorded in Time Capsules.
