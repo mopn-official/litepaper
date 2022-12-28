@@ -4,25 +4,9 @@
 
 The place rule is that the same alliance region must be contiguous or overlapped.
 
-<figure><img src="../.gitbook/assets/Partmap1" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/partmap.png" alt=""><figcaption></figcaption></figure>
 
-<div>
-
-<figure><img src="../.gitbook/assets/PLACE-1.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pLACE-2.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/PLACE-3.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/PLACE-4.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/PLACE-0.png" alt=""><figcaption></figcaption></figure>
 
 The avatar placed on the map has initial attributes:
 
