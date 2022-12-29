@@ -15,14 +15,14 @@ Inspired by r/place, we came up with the idea of MOPN. The idea is to build an o
 3. War will happen with a certain number of NFT holders placing their NFTs on the map, since the blocks are countable. Tokens will consume in the war to maintain the balance of the whole economic system.
 
 \
-The map is the battlefield of NFT collections. It is also a **graphical ranking list** of the heat level of all PFP NFT collections. The region changing on the map collections is not only about benefits but also the position in the NFT industry of the collection. All the changes will be recorded in the time capsules of MOPN being a part of NFT industrial history.\
+The map is the battlefield of NFT collections. It is also a **graphical ranking list** of the heat level of all PFP NFT collections. The region changing on the map collections is not only about benefits but also the position of the collection in the NFTverse. All the changes will be recorded in the time capsules of MOPN being a part of NFTverse history.\
 
 
 > What is Unite to Earn？
 >
-> Most "Earn" on chain is about individuals using proof of work pattern. This leads to a problem that competition is among individuals. In MOPN, "Earn" is based on behavior of the community. To maximum the "Earn", joining the most united and powerful community is the best choice.
+> Most "to Earn" on chain is about individuals using proof of work pattern. This leads to a problem that competition is among individuals. In MOPN, "to Earn" is based on behavior of the community. To maximum the "to Earn", joining the most united and powerful community is the best choice.
 >
-> We name this innovation pattern "Unite to earn"
+> We name this innovation pattern "Unite to Earn"
 
 ## Value
 
@@ -40,4 +40,4 @@ Defeat the strong, occupy more regions, place a better position. All these are n
 
 ### Record
 
-Each PFP NFT is not a set of digital data. It is a unique piece of art collection perpetual existing in Crypto world. It beyond the dimension of life of human beings, it is the testimony of history. And what MOPN records is an eternal historical scroll created by all PFP NFT holders.
+Each PFP NFT is not a set of digital data. It is a unique piece of art perpetually existing in Crypto world. It beyond the dimension of life of human beings, it is the testimony of history. And what MOPN records is an eternal historic scroll of NFTverse created by all PFP NFT holders.
