@@ -15,14 +15,13 @@ Block is the basic unit on the map, and it is also a hexagon. For each block, a 
 ## Block Type
 
 There are three types of Block with different $ENERGY generation.
-Block Type
-Block Type Ratio
-Regular
-1
-Silver
-5
-Gold
-15
+<figure><img src="../.gitbook/assets/Block%20Type.png" alt=""><figcaption></figcaption></figure>
+
+## Block Level
+
+There are 13 levels of Block.
+There are different $ENERGY generation (how much $ENERGY can get in 24 hours) and recycle (rate of recycle) coefficients of each Block level.
+<figure><img src="../.gitbook/assets/Block%20Level.png" alt=""><figcaption></figcaption></figure>
 
 ## Coordinate
 
