@@ -12,6 +12,10 @@ The thumbnail of the map is shown below:
 
 Block is the basic unit on the map, and it is also a hexagon. For each block, a NFT can be placed.
 
+##Block Type
+
+There are three types of Block with different $ENERGY generation.
+
 ## Coordinate
 
 Each block on the map has a unique coordinate. Cube coordinates are used to identify the block as (x,y,z), for any coordinate, x+y+z=0.
