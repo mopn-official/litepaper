@@ -1,7 +1,5 @@
 # Prop
 
-There are 10 Props in MOPN (details in [Prop](../../how-to-play/prop-system.md))
+Props are bought from [Auction House](prop-auction.md) using [$ENERGY](../usdenergy/).
 
-Every day fixed numbers of each Prop can be bought from [auction house](prop-auction.md) costing $Energy. Props will be burned after use in the game.
-
-<figure><img src="../../.gitbook/assets/prop 1.png" alt=""><figcaption><p><strong>Amount</strong>&#x26;<strong>Starting Price</strong></p></figcaption></figure>
+Props will gain advantages for players in the [war](../../how-to-play/game-system.md#war) of occupying more [regions](../../how-to-play/map-system.md#region).

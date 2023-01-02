@@ -1,3 +1,3 @@
-# $Energy Obtain
+# Burn
 
-$$Energy Obtain=\dfrac{∑Alliance Region×Block\space Level×Block Type}{Alliance Avatars}$$
+$ENERGY will be 100% burned after buying [Props](../prop/) at [Auction house](../prop/prop-auction.md).
