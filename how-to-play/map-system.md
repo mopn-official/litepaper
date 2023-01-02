@@ -2,7 +2,7 @@
 
 ## Map
 
-The map of MOPN is a symmetrical hexagon consisting of 999,271 blocks.&#x20;
+The map of MOPN is a symmetrical hexagon consisting of 999,271 blocks.
 
 The thumbnail of the map is shown below:
 
@@ -15,13 +15,16 @@ Block is the basic unit on the map, and it is also a hexagon. For each block, a 
 ## Block Type
 
 There are three types of Block with different $ENERGY generation.
-<figure><img src="../.gitbook/assets/Block%20Type.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Block Type.png" alt=""><figcaption></figcaption></figure>
 
 ## Block Level
 
-There are 13 levels of Block.
+There are 13 levels of Block.&#x20;
+
 There are different $ENERGY generation (how much $ENERGY can get in 24 hours) and recycle (rate of recycle) coefficients of each Block level.
-<figure><img src="../.gitbook/assets/Block%20Level.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Block Level.png" alt=""><figcaption></figcaption></figure>
 
 ## Coordinate
 
@@ -42,7 +45,3 @@ War will happen when the regions of two alliances overlap.
 The region of the collection is all the region occupied by NFTs from the collection. On the map, it shows as same colour and badge.
 
 <figure><img src="../.gitbook/assets/The region of the collection.png" alt=""><figcaption></figcaption></figure>
-
-## **Time Capsule**&#x20;
-
-Every 72 hours, a time capsule recording all the behaviors in the past 72 hours on the map will be listed in the auction house.
