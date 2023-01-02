@@ -2,7 +2,7 @@
 
 * [Overview](README.md)
 * [Why We Build](why-we-build.md)
-* [How To Play](how-to-play/README.md)
+* [System](how-to-play/README.md)
   * [Map System](how-to-play/map-system.md)
   * [Account System](how-to-play/account-system.md)
   * [Game System](how-to-play/game-system.md)
