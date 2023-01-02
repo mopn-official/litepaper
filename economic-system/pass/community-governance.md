@@ -1,8 +1,7 @@
-# Community Governance
+# Whitelist
 
-1. Community decides who can join the MOPN  collection list
-   * Collection list shields witch attack (robots, few members or no liveness NFT communities ) in the early phase of MOPN to guarantee the fairness and objectiveness of MOPN.Before OBT(open beta test on Mainnet) of MOPN,first group of NFT Collections (must fit ERC-721) will be voted on by MOPN Pass holders.
-   * After OBT,the community still decides who can join MOPN.
-   * Collection list will still by applied for the new NFT Collection to join in MOPN until there is no vacuum block on the map. By then, collection list will be removed, and any NFT collection is welcome to join MOPN any time.
-2. Vote for next round Pass mint price and amount.
-3. Participate in the gameplay, operation and economic design and debate for MOPN following games.
+MOPN hopes to invite those NFT holders who are really into innovation patterns and Web3.0 games to be early birds of the community. So for the first round 2,000 pass, MOPN will use invited whitelist to grant the pass mint right.
+
+If you want to get an invitation, all you need to do is tell us why you are interested in MOPN, the suggestions about MOPN or your other stories about NFTverse, and [@Mopnxyz](https://twitter.com/mopnxyz). Please leave your wallet address as well. MOPN will choose our genesis pass holders from all tweets[ @Mopnxyz](https://twitter.com/mopnxyz). You can verify to be MOPN pass holder in our [discord group](https://discord.com/invite/eXaPzPdb2j).
+
+The start time and price of the second round pass mint will be decided by all the pass holders.
