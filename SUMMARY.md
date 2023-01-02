@@ -7,7 +7,7 @@
   * [Account System](how-to-play/account-system.md)
   * [Game System](how-to-play/game-system.md)
   * [Prop System](how-to-play/prop-system.md)
-  * [Badge System](how-to-play/badge-system.md)
+  * [Record System](how-to-play/badge-system.md)
 * [Economic System](economic-system/README.md)
   * [$Energy](economic-system/usdenergy/README.md)
     * [Block level](economic-system/usdenergy/block-level.md)

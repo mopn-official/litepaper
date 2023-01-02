@@ -1,7 +1,13 @@
-# Badge System
+# Record System
 
-**Badge** is the award for early players who have made a great contribution to MOPN. Badges are ERC-721 Tokens on ethereum. The total number of badges is 1,000,  and will be distributed to those who are qualified after MOPN launching on Mainnet.
+#### Badge
 
-Badge can be used in the game to have a special avatar appearance in MOPN.
+Badge is the award for early players who have made a great contribution to MOPN. （TBD)
 
-In the following games and applications, badge holders will have priority.
+#### Time Capsule
+
+Every certain period of time, a time capsule recording all the behaviors on the map will be minted.（TBD）
+
+#### NFT Space
+
+MOPN will set up an independent space for every NFT. Owner and former owners can edit the space.（TBD）
