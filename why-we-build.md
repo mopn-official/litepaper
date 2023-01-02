@@ -28,11 +28,11 @@ The map is the battlefield of NFT collections. It is also a **graphical ranking 
 
 ### Earn
 
-To earn $Energy, all you need to do is place your NFT on the map and try your best to stay alive.
+To earn $ENERGY, all you need to do is place your NFT on the map and try your best to stay alive.
 
 ### Fun
 
-$Energy can buy props with various abilities. Through strategies of props using, tactics of place\&move and diplomacy, collections may perform the plot of defeating the strong by the weak. Fun comes from the strategic thinking of an MMO-SLG (massive multiplayer onchain simulation game).
+$ENERGY can buy props with various abilities. Through strategies of props using, tactics of place\&move and diplomacy, collections may perform the plot of defeating the strong by the weak. Fun comes from the strategic thinking of an MMO-SLG (massive multiplayer onchain simulation game).
 
 ### Glory
 
