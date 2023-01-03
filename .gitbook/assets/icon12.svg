@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 21.6349 18.7503"
+>
+  <polygon points="10.9236 9.3759 7.6204 14.7759 14.0204 14.7759 10.9236 9.3759" />
+  <polygon
+    style="stroke: #000; stroke-miterlimit: 10; fill: none; stroke-width: 0.5px"
+    points="10.9588 .5003 .4357 18.5003 21.205 18.5003 10.9588 .5003"
+  />
+  <animate
+    attributeName="fill"
+    values="#fff;#000;#fff"
+    dur="3.85s"
+    begin="0s"
+    repeatCount="indefinite"
+  />
+</svg>
