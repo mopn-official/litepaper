@@ -26,7 +26,7 @@ There are three types of Block with different [$ENERGY](../economic-system/usden
 
 There are 13 levels of Block.&#x20;
 
-There are different [$ENERGY generation](../economic-system/usdenergy/block-type.md) (how much $ENERGY can get in 24 hours) and [recycle](../economic-system/usdenergy/usdenergy-recycle.md) (rate of recycle) coefficients of each Block level.
+There are different [$ENERGY Earn ratio](../economic-system/usdenergy/block-type.md) (how much $ENERGY can get in 24 hours) and [recycle](../economic-system/usdenergy/usdenergy-recycle.md) (rate of recycle) coefficients of each Block level.
 
 | **Block Level** | **Logo**                                                                                                                                                                                                                                                                              |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

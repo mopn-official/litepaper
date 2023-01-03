@@ -1,6 +1,6 @@
 # Tokenomics
 
-<figure><img src="../.gitbook/assets/Economic Cycle of MOPN.png" alt=""><figcaption><p>Economic Cycle of MOPN</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ecomonic cycle.png" alt=""><figcaption><p>Economic Cycle of MOPN</p></figcaption></figure>
 
 ## Economic Ecosystem
 
