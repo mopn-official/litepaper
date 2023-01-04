@@ -23,5 +23,3 @@ In 10,981 Pass，each Pass has 91 blocks with the same amount of each block leve
 | LV10            | 11                 |
 | LV11            | 12                 |
 | LV12            | 13                 |
-| LV11            | 12                 |
-| LV12            | 13                 |
