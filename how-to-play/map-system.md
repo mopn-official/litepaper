@@ -2,7 +2,7 @@
 
 ## Map
 
-The map of MOPN is a symmetrical hexagon consisting of 999,271 blocks.
+The whole map of MOPN is a symmetrical hexagon consisting of 999,271 blocks.
 
 The thumbnail of the map is shown below:
 
@@ -14,7 +14,7 @@ Block is the basic unit on the map, and it is also a hexagon. For each block, a 
 
 ## Block Type
 
-There are three types of Block with different [$ENERGY](../economic-system/usdenergy/) generation.
+There are three types of Block with different [$ENERGY](../economic-system/usdenergy/) basic generation ratios.
 
 | **Block Type** | **Block Type Ratio** |
 | -------------- | -------------------- |
@@ -24,22 +24,22 @@ There are three types of Block with different [$ENERGY](../economic-system/usden
 
 ## Block Level
 
-There are 13 levels of Block.&#x20;
+There are 13 levels of Block.
 
-There are different [$ENERGY Earn ratio](../economic-system/usdenergy/block-type.md) (how much $ENERGY can get in 24 hours) and [recycle](../economic-system/usdenergy/usdenergy-recycle.md) (rate of recycle) coefficients of each Block level.
+There are different [$ENERGY Generate](../economic-system/usdenergy/block-type.md) coefficients (how much $ENERGY can get in 24 hours) for each Block level.
 
-| **Block Level** | **Logo**                                                                                                                                                                                                                                                                              |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| LV0             | null                                                                                                                                                                                                                                                                                  |
-| LV1             | <img src="../.gitbook/assets/icon1.svg" alt="" data-size="line"> |
-| LV2             | <img src="../.gitbook/assets/icon2.svg" alt="" data-size="line"> |
-| LV3             | <img src="../.gitbook/assets/icon3.svg" alt="" data-size="line"> |
-| LV4             | <img src="../.gitbook/assets/icon4.svg" alt="" data-size="line"> |
-| LV5             | <img src="../.gitbook/assets/icon5.svg" alt="" data-size="line"> |
-| LV6             | <img src="../.gitbook/assets/icon6.svg" alt="" data-size="line"> |
-| LV7             | <img src="../.gitbook/assets/icon7.svg" alt="" data-size="line"> |
-| LV8             | <img src="../.gitbook/assets/icon8.svg" alt="" data-size="line"> |
-| LV9             | <img src="../.gitbook/assets/icon9.svg" alt="" data-size="line"> |
+| **Block Level** | **Logo**                                                          |
+| --------------- | ----------------------------------------------------------------- |
+| LV0             | null                                                              |
+| LV1             | <img src="../.gitbook/assets/icon1.svg" alt="" data-size="line">  |
+| LV2             | <img src="../.gitbook/assets/icon2.svg" alt="" data-size="line">  |
+| LV3             | <img src="../.gitbook/assets/icon3.svg" alt="" data-size="line">  |
+| LV4             | <img src="../.gitbook/assets/icon4.svg" alt="" data-size="line">  |
+| LV5             | <img src="../.gitbook/assets/icon5.svg" alt="" data-size="line">  |
+| LV6             | <img src="../.gitbook/assets/icon6.svg" alt="" data-size="line">  |
+| LV7             | <img src="../.gitbook/assets/icon7.svg" alt="" data-size="line">  |
+| LV8             | <img src="../.gitbook/assets/icon8.svg" alt="" data-size="line">  |
+| LV9             | <img src="../.gitbook/assets/icon9.svg" alt="" data-size="line">  |
 | LV10            | <img src="../.gitbook/assets/icon10.svg" alt="" data-size="line"> |
 | LV11            | <img src="../.gitbook/assets/icon11.svg" alt="" data-size="line"> |
 | LV12            | <img src="../.gitbook/assets/icon12.svg" alt="" data-size="line"> |

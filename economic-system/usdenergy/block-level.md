@@ -1,8 +1,6 @@
 # Supply
 
-$ENERGY fits ERC-20 deploying on ethereum mainnet.
+There is no total quantity upper limit of $ENERGY. Actual generation depends on how many blocks are occupied.&#x20;
 
-$ENERGY (ERC-20) address：(TBD)
-
-There is no total quantity upper limit of $ENERGY. 1,510,509 is the theoretical maximum output perday.
+1,510,509 is the theoretical maximum generation per day when 10,981 blocks are all occupied.
 

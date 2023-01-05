@@ -14,13 +14,15 @@ The avatar placed on the map has initial attributes:
 * ATT：0
 * STA：0
 
+Players can use [POM](prop-system.md) to enhance the attributes of the avatar.
+
 ## Remove
 
-The avatar will be removed from the map under 4 circumstances：
+The avatar will be removed from the map under certain circumstances：
 
 * Players remove the avatar from the map
 * HP is 0 during the war
-* HP is 0 under the effect of Props
+* HP is 0 under the the effect of [POM](prop-system.md)
 * The related NFT is burned on chain
 
 All attributes will initialized once the avatar is removed from the map.
@@ -39,12 +41,10 @@ War will happen when the regions of two alliances overlap.
 
 War rules:
 
-* From 12 o'clock of the avatar, detection of overlap block clockwise.
-* If there is an overlap block, war will begin between avatars occupying the region:
-  * If there is more than one enemy on the overlap block, the war rotation is below.
-  * From 12 o'clock of the avatar, war with each enemy clockwise.
+* From 12 o'clock of the avatar, detection of overlap block clockwise
+* If there is an overlap block, war will begin between avatars occupying the region
+* If there is more than 1 enemy, from 12 o'clock of the avatar, war with each enemy clockwise
+* During the war, ATT will contiously cost HP from both sides until the HP of anyone is 0
+* The war will end until the region no longer overlapped
 
 <figure><img src="../.gitbook/assets/War.png" alt=""><figcaption></figcaption></figure>
-
-During the war, ATT will continuously cost HP from both sides until the HP of anyone is 0. Defeated one will be removed from the map.\
-The war will end until the region no longer overlapped.

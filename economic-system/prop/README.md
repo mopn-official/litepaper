@@ -1,5 +1,5 @@
-# Prop
+# POM (Props of MOPN)
 
-Props are bought from [Auction House](prop-auction.md) using [$ENERGY](../usdenergy/).
+POM are bought from [Auction House](prop-auction.md) using $ENERGY.&#x20;
 
-Props will gain advantages for players in the [war](../../how-to-play/game-system.md#war) of occupying more [regions](../../how-to-play/map-system.md#region).
+POM will gain advantages for avatars in the [war](../../how-to-play/game-system.md#war) of occupying more [regions](../../how-to-play/map-system.md#region).

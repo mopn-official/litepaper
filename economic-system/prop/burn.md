@@ -1,3 +1,3 @@
-# Burn
+# POM Burn
 
-Props are activated on the [block](../../how-to-play/map-system.md#block). After using it, it will burn 100%.
+Players use [POM](../../how-to-play/prop-system.md) to gain related abilities. After using, [POM](../../how-to-play/prop-system.md) will burn 100%.

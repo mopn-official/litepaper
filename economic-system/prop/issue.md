@@ -1,14 +1,12 @@
-# Issue
+# Generate
 
-Props are automatically issued to the Auction house by contract every day.&#x20;
+10 kinds of fixed number of POM are automatically generated to the Auction house by contract every day.
 
-Every day there are fixed numbers for each prop.&#x20;
-
-Unsold props will be burned automatically.
+**Daily POM Generation：**
 
 | **Prop name** | **Daily Amount** |
 | ------------- | ---------------- |
-| Health Gem    | 10,000           |
+| HP Gem        | 10,000           |
 | ATT Gem       | 2,000            |
 | STA Gem       | 2,000            |
 | Venom         | 10               |

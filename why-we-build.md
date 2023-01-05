@@ -8,19 +8,18 @@ r/place is quite a successful activity held by Reddit on April Fool 2017. The ru
 
 ### MOPN
 
-Inspired by r/place, we came up with the idea of MOPN. The idea is to build an open map with simple rules. The map is 100% deployed on ethereum, cannot be upgraded and NFT holder on the [collection list](economic-system/pass/community-governance.md) is free to play.
+Inspired by r/place, we came up with the idea of MOPN. The idea is to build an open map with simple rules. The map is 100% deployed on ethereum, cannot be upgraded and NFT holder on the [collection list](community-governance/pass/mint/community-governance.md) is free to play.
 
 1. Anyone can place NFT in their wallet on the map.
 2. There is an economic system driven by Unite to Earn. NFT holders can earn tokens according to the region of the alliance.
 3. War will happen with a certain number of NFT holders placing their NFTs on the map, since the blocks are countable. Tokens will consume in the war to maintain the balance of the whole economic system.
 
 \
-The map is the battlefield of NFT collections. It is also a **graphical ranking list** of the heat level of all PFP NFT collections. The region changing on the map collections is not only about benefits but also the position of the collection in the NFTverse. All the changes will be recorded in the time capsules of MOPN being a part of NFTverse history.\
-
+The map is the battlefield of NFT collections. It is also a graphical ranking list of the heat level of all PFP NFT collections. The region changing on the map collections is not only about benefits but also the position of the collection in the NFTverse . All the changes will be recorded on ethereum being a part of NFTverse history.
 
 > What is Unite to Earn？
 >
-> Most "to Earn" on chain is about individuals using proof of work pattern. This leads to a problem that competition is among individuals. In MOPN, "to Earn" is based on behavior of the community. To maximum the "to Earn", joining the most united and powerful community is the best choice.
+> Most "to Earn" on chain is about individuals using proof of work pattern. This leads to a problem that competition is among individuals. In MOPN, "to Earn" is based on group decisions of NFT collection. To maximum the "to Earn", joining the most united and powerful community is the best choice.
 >
 > We name this innovation pattern "Unite to Earn"
 
@@ -32,7 +31,7 @@ To earn $ENERGY, all you need to do is place your NFT on the map and try your be
 
 ### Fun
 
-$ENERGY can buy props with various abilities. Through strategies of props using, tactics of place\&move and diplomacy, collections may perform the plot of defeating the strong by the weak. Fun comes from the strategic thinking of an MMO-SLG (massive multiplayer onchain simulation game).
+$ENERGY can buy POM with various abilities. Through strategies of POM using, tactics of place\&move and diplomacy, collections may perform the plot of defeating the strong by the weak. Fun comes from the strategic thinking of an MMO-SLG (massive multiplayer onchain simulation game).
 
 ### Glory
 

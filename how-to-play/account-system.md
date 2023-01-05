@@ -2,11 +2,11 @@
 
 ## Account
 
-Anyone can play MOPN after connecting ethereum wallet (MetaMask or WalletConnect). Each wallet has an account, players can switch wallet after disconnecting the current wallet.
+Anyone can play MOPN after connecting ethereum wallet (MetaMask or WalletConnect) as his or her account.
 
 ## Avatar
 
-Each NFT on the collection list is an avatar in MOPN.&#x20;
+Each PFP NFT is an avatar in MOPN.
 
 In one account, there may be multiple avatars.&#x20;
 
@@ -22,7 +22,7 @@ The avatar in MOPN is soul bond with the NFT itself, doesn't bond with the accou
 
 If NFT is transferred from wallet A to B, players can still operate the avatar by connecting wallet B.&#x20;
 
-If the NFT is burned on chain, the related avatar will also be burned in MOPN.
+If the NFT is burned on chain, the related avatar will also be removed from the map.
 
 ## Alliance
 
@@ -30,8 +30,6 @@ NFTs from the same Collection are treated as one Alliance.
 
 ## Attributes
 
-There are 3 types of attributes of avatar on the map:
-
-* HP: when HP=0, avatar is dead and the NFT will be removed from the map
 * ATT: Damage to HP of the enemy
+* HP: when HP=0, avatar is dead and the NFT will be removed from the map
 * STA: 1 cost of STA to move 1 block on the map
