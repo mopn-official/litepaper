@@ -2,7 +2,7 @@
 
 ## Gameplay
 
-To set up an [Avatar](account-system.md#avatar) in MOPN, all you need to do is to choose an NFT from your wallet.
+To set up an [Avatar](account-system.md#avatar) in MOPN, all need to do is to choose an NFT from wallet.
 
 NFTs from the same Collection are treated as one [Alliance](account-system.md#alliance). The core gameplay is to occupy more[ Blocks](map-system.md#block) on the [Map](map-system.md#map) through [War](game-system.md#war).
 
