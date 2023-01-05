@@ -1,6 +1,6 @@
 # Rarity
 
-There are three Pass rarity:
+There are three Pass rarity based on different [Block Type](../../how-to-play/map-system.md#block-type):
 
 In 10,981 Pass:
 
