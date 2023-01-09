@@ -31,7 +31,7 @@ There are different [$ENERGY generate](../economic-system/usdenergy/block-type.m
 | **Block Level** | **Icon**                                                          |
 | --------------- | ----------------------------------------------------------------- |
 | LV0             | null                                                              |
-| LV1             | <img src="../.gitbook/assets/icon1.svg" alt="" data-size="line">  |
+| LV1             | <img src="../.gitbook/assets/icon1.svg" alt="">  |
 | LV2             | <img src="../.gitbook/assets/icon2.svg" alt="" data-size="line">  |
 | LV3             | <img src="../.gitbook/assets/icon3.svg" alt="" data-size="line">  |
 | LV4             | <img src="../.gitbook/assets/icon4.svg" alt="" data-size="line">  |
