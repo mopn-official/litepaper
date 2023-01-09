@@ -28,21 +28,21 @@ There are 13 levels of Block.
 
 There are different [$ENERGY generate](../economic-system/usdenergy/block-type.md) coefficients (how much $ENERGY can get in 24 hours) for each Block level.
 
-| **Block Level** | **Icon**                                                          |
-| --------------- | ----------------------------------------------------------------- |
-| LV0             | null                                                              |
-| LV1             | <img src="../.gitbook/assets/icon1.svg" alt="">  |
-| LV2             | <img src="../.gitbook/assets/icon2.svg" alt="" data-size="line">  |
-| LV3             | <img src="../.gitbook/assets/icon3.svg" alt="" data-size="line">  |
-| LV4             | <img src="../.gitbook/assets/icon4.svg" alt="" data-size="line">  |
-| LV5             | <img src="../.gitbook/assets/icon5.svg" alt="" data-size="line">  |
-| LV6             | <img src="../.gitbook/assets/icon6.svg" alt="" data-size="line">  |
-| LV7             | <img src="../.gitbook/assets/icon7.svg" alt="" data-size="line">  |
-| LV8             | <img src="../.gitbook/assets/icon8.svg" alt="" data-size="line">  |
-| LV9             | <img src="../.gitbook/assets/icon9.svg" alt="" data-size="line">  |
-| LV10            | <img src="../.gitbook/assets/icon10.svg" alt="" data-size="line"> |
-| LV11            | <img src="../.gitbook/assets/icon11.svg" alt="" data-size="line"> |
-| LV12            | <img src="../.gitbook/assets/icon12.svg" alt="" data-size="line"> |
+| **Block Level** | **Icon**                                                      |
+| --------------- | ------------------------------------------------------------- |
+| LV0             | null                                                          |
+| LV1             | ![](../.gitbook/assets/1.png)                                 |
+| LV2             | <img src="../.gitbook/assets/2.png" alt="" data-size="line">  |
+| LV3             | <img src="../.gitbook/assets/3.png" alt="" data-size="line">  |
+| LV4             | <img src="../.gitbook/assets/4.png" alt="" data-size="line">  |
+| LV5             | <img src="../.gitbook/assets/5.png" alt="" data-size="line">  |
+| LV6             | <img src="../.gitbook/assets/6.png" alt="" data-size="line">  |
+| LV7             | <img src="../.gitbook/assets/7.png" alt="" data-size="line">  |
+| LV8             | <img src="../.gitbook/assets/8.png" alt="" data-size="line">  |
+| LV9             | <img src="../.gitbook/assets/9.png" alt="" data-size="line">  |
+| LV10            | <img src="../.gitbook/assets/10.png" alt="" data-size="line"> |
+| LV11            | <img src="../.gitbook/assets/11.png" alt="" data-size="line"> |
+| LV12            | <img src="../.gitbook/assets/12.png" alt="" data-size="line"> |
 
 ## Coordinate
 
