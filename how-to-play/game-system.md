@@ -1,12 +1,12 @@
 # Game System
 
-## Place
+Place
 
 The place rule is that the same alliance region must be contiguous or overlapped.
 
 <figure><img src="../.gitbook/assets/partmap.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/PLACE-0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Place.png" alt=""><figcaption></figcaption></figure>
 
 The avatar placed on the map has initial attributes:
 
