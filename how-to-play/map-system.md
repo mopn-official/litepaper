@@ -28,7 +28,7 @@ There are 13 levels of Block.
 
 There are different [$ENERGY generate](../economic-system/usdenergy/block-type.md) coefficients (how much $ENERGY can get in 24 hours) for each Block level.
 
-| **Block Level** | **Logo**                                                          |
+| **Block Level** | **Icon**                                                          |
 | --------------- | ----------------------------------------------------------------- |
 | LV0             | null                                                              |
 | LV1             | <img src="../.gitbook/assets/icon1.svg" alt="" data-size="line">  |

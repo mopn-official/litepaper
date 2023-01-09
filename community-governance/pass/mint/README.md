@@ -12,7 +12,7 @@
 
 There will be 3 round Pass Mint. All the passes are available, 0 is reserved for the team.&#x20;
 
-All the funds from Pass Mint will be used for the development of MOPN. MOPN will announce our expenditure to the community at a fixed period of time.
+All the funds from the minting of PASS NFTs will be used for the development of MOPN. MOPN will announce our expenditure to the community at a fixed period of time.
 
 | **Round** | **Amount** | **Price**              | **Pattern** | **Phase**      |
 | --------- | ---------- | ---------------------- | ----------- | -------------- |
