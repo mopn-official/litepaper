@@ -1,14 +1,6 @@
 # Pass Mint
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/PASS2.svg" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/PASS3.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../../.gitbook/assets/PASS inf E.png" alt=""><figcaption></figcaption></figure>
 
 There will be 3 round Pass Mint. All the passes are available, 0 is reserved for the team.&#x20;
 

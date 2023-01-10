@@ -22,4 +22,4 @@ There are two main cycles of generation and burn of two Tokens in the main econo
 
 &#x20;After buring [POM](prop/), [$ENERGY](usdenergy/) will be withdrawn from the [POM tax](prop/pom-tax.md) pool.&#x20;
 
-80% goes to the [Pass](broken-reference) holder owning the block and 20% goes to MOPN protocol.
+80% goes to the [Pass](../community-governance/pass/mint/) holder owning the block and 20% goes to MOPN protocol.
