@@ -1,5 +1,7 @@
 # Rarity
 
+<figure><img src="../../.gitbook/assets/PASS inf E.png" alt=""><figcaption></figcaption></figure>
+
 There are three Pass rarity based on different [Block Type](../../how-to-play/map-system.md#block-type):
 
 In 10,981 Pass:
