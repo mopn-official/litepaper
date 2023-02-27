@@ -39,11 +39,11 @@ Every 91 tiles form a land, and there are 10,980 lands that make up the entire M
 
 There are three types of tiles in the MOPN: Common, Rare, and Legendary, each with different weights.
 
-| <p><br></p> | Icon                                                                                                                                                                                                                                                                               | Tile Weight | Percentage | Amount |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------- | ------ |
-| Common      | -                                                                                                                                                                                                                                                                                  | 1           | 81%        | 809212 |
-| Rare        | <img src="https://loopeer.feishu.cn/space/api/box/stream/download/asynccode/?code=MDhkYTUyM2EzOGRlZDJmOGNlYmRiM2U0ODNjNDI4NzFfQjRwQmZrNzQ2UlJGOGpaZ2MybDRnRlh5VFFqNFVXckFfVG9rZW46Ym94Y240OHlraTZVRkhIOXZIUGRrRVk5Qm1oXzE2Nzc0NjgxMzQ6MTY3NzQ3MTczNF9WNA" alt="" data-size="line"> | 5           | 18%        | 180032 |
-| Legendary   | <img src="https://loopeer.feishu.cn/space/api/box/stream/download/asynccode/?code=MGY5Mzg5MTQyZmNkODYzY2EzYzVjNWQyYTdmYTMyOTJfSUVOaldtZkJOc3FvU0tlZVRoUmdabzVpVzVDM3hSdDNfVG9rZW46Ym94Y253OGJ2V1BhMXNKOW5TaFNqdU15MUliXzE2Nzc0NjgxNDk6MTY3NzQ3MTc0OV9WNA" alt="" data-size="line"> | 15          | 1%         | 10027  |
+| <p><br></p> | Icon                                                                                         | Tile Weight | Percentage | Amount |
+| ----------- | -------------------------------------------------------------------------------------------- | ----------- | ---------- | ------ |
+| Common      | -                                                                                            | 1           | 81%        | 809212 |
+| Rare        | <img src=".gitbook/assets/676a4415-8db7-491e-806f-0f0e49f1f7c6.png" alt="" data-size="line"> | 5           | 18%        | 180032 |
+| Legendary   | <img src=".gitbook/assets/8c3ace58-f319-4fbd-88e8-e7f6a16db635.png" alt="" data-size="line"> | 15          | 1%         | 10027  |
 
 ## Land
 
@@ -122,21 +122,3 @@ Once all the 100 tokens are auctioned out, the next round will automatically sta
 #### BUY
 
 Users can buy BOMB on marketplaces such as OpenSea.
-
-## Roadmap
-
-### Land Open phase
-
-Coming soon.
-
-### Testnet phase
-
-Coming soon.
-
-### Initial phase
-
-(TBD)
-
-### Long-Term phase
-
-(TBD)
