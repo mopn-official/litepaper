@@ -8,7 +8,7 @@ Users can earn energy and compete for tiles by placing their NFTs on the map, wh
 
 Fully on-chain, fair launch, open-source contracts on Ethereum with no admin.
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>MOPN Prototype</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Coordinate (4).png" alt=""><figcaption><p>MOPN Prototype</p></figcaption></figure>
 
 ## Account
 
@@ -25,17 +25,17 @@ Fully on-chain, fair launch, open-source contracts on Ethereum with no admin.
 4. Adjacent alliance territories can overlap, while territories from different alliances cannot overlap but can be adjacent.
 5. After placing NFT, the $ENERGY rewards are allocated to NFT holder, NFT collection vault, and land holder in a ratio of 90%, 5%, and 5%.
 
-<figure><img src=".gitbook/assets/place.png" alt=""><figcaption><p>Place Rules</p></figcaption></figure>
+<figure><img src=".gitbook/assets/place (3) 1 (1).png" alt=""><figcaption><p>Place Rule</p></figcaption></figure>
 
 ## Tile
 
 Tile is the basic unit on the map, and each tile is a regular hexagon with a unique coordinate. There are a total of 999,271 tiles on the map.
 
-<img src=".gitbook/assets/image (7).png" alt="" data-size="original">
+<figure><img src=".gitbook/assets/tiles.png" alt=""><figcaption><p>Tile Coordinate</p></figcaption></figure>
 
 Every 91 tiles form a land, and there are 10,980 lands that make up the entire MOPN map, surrounded by a central area.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Land Composite Rule </p></figcaption></figure>
 
 There are three types of tiles in the MOPN: Common, Rare, and Legendary, each with different weights.
 
@@ -49,7 +49,7 @@ There are three types of tiles in the MOPN: Common, Rare, and Legendary, each wi
 
 Land is an ERC-721 NFT with a fixed total supply of 10,981, and each land consists of 91 tiles.
 
-![](<.gitbook/assets/image (4).png>)
+<figure><img src=".gitbook/assets/land_nft (2).png" alt=""><figcaption><p>Land NFT Thumbnail</p></figcaption></figure>
 
 After a land is minted, NFTs can be placed on its tiles, and the land NFT will display the occupying alliance.
 
@@ -77,7 +77,7 @@ Users can buy land NFT on marketplaces such as OpenSea.
 2. All NFTs placed on tiles automatically receive $ENERGY yield per block based on their weight (requires manual claiming).
 3. $ENERGY is used to auction bombs and lands, with 100% of the $ENERGY used for auction being burned.
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>$ENERGY Yield Trends</p></figcaption></figure>
+<figure><img src=".gitbook/assets/energy (2).png" alt=""><figcaption><p>$ENERGY Yield Trends</p></figcaption></figure>
 
 ### How to obtain
 
@@ -107,7 +107,7 @@ Users can buy land NFT on dex such as uniswap.
 2. Using BOMB can remove all NFTs on the 7 Tiles centered around the placement point. The NFT used for bombing will not be affected.
 3. BOMB will be burned after use. Allocation weight will +1 of NFT using BOMB.
 
-![](<.gitbook/assets/image (6).png>)
+<figure><img src=".gitbook/assets/bomb_info (3).png" alt=""><figcaption><p>Bomb affect range</p></figcaption></figure>
 
 ### How to obtain
 
@@ -115,7 +115,7 @@ Users can buy land NFT on dex such as uniswap.
 
 Through a Last Price Dutch Auction (LPDA), starting from 1,000,000 $ENERGY, 100 bombs will be auctioned off each round, with the price decreasing by 1% per minute. BOMBs can be minted at any time in quantities less than the remaining tokens for the current round.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Auction Price Trends</p></figcaption></figure>
+<figure><img src=".gitbook/assets/LPDA (1).png" alt=""><figcaption><p>Auction Price Trends</p></figcaption></figure>
 
 Once all the 100 tokens are auctioned out, the next round will automatically start.Transactions that bid higher than the current minimum bid will receive an $ENERGY refund for the difference.
 
