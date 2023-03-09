@@ -1,4 +1,6 @@
 # Table of contents
 
-* [Litepaper](README.md)
+* [MOPN](README.md)
+* [Tokenomics](tokenomics.md)
+* [Value](value.md)
 * [Roadmap](roadmap.md)

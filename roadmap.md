@@ -2,11 +2,11 @@
 
 ## Land Open phase
 
-Coming soon.
+Mar.
 
 ## Testnet phase
 
-Coming soon.
+Apr.
 
 ## Initial phase
 
