@@ -1,17 +1,17 @@
 # Roadmap
 
-## Land Open phase
+## Phase 1 - Genesis Land Open
 
 Mar.
 
-## Testnet phase
+## Phase 2 - Testnet&#x20;
 
 Apr.
 
-## Initial phase
+## Phase 3 - Initial Launch
 
 (TBD)
 
-## Long-Term phase
+## Phase 4 - Long Term
 
 (TBD)

@@ -4,7 +4,7 @@
 
 $MT, an ERC-20 token with a total supply of 100 billion, serves as the value carrier for MOPN. The initial supply is 6,000 per block, and it decreases by 0.3% every 50,000 blocks.
 
-<figure><img src=".gitbook/assets/mt_trends (1).png" alt=""><figcaption><p>$MT Supply</p></figcaption></figure>
+<figure><img src=".gitbook/assets/mt_trends (1) (1).png" alt=""><figcaption><p>$MT Supply</p></figcaption></figure>
 
 All NFTs placed on tiles automatically receive $MT earnings per block based on their weight (requires manual claiming).
 
