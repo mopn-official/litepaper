@@ -16,13 +16,13 @@ $MT is used to auction bombs and lands, with 100% of the $MT used for auction be
 
 Users can earn $MT by placing their owned NFTs on unoccupied tiles on the MOPN map.
 
-$$PlacingNFTEarnings(Perblock)={(\cfrac{NFT Weight+Tile Weight}{Total NFT Weight+Total Tile Weight}}\times{MTSupplyPerblock})*90\%$$
+$$Placing\space   NFT\space   Earnings(Perblock)={(\cfrac{NFT\space  Weight+Tile\space Weight}{Total\space NFT \space Weight+Total\space  Tile\space Weight}}\times{MT\space Supply\space Perblock})*90\%$$
 
 #### 2. Alliance Placing Reward
 
 Placing an NFT on a tile can immediately earn an $MT reward from the alliance vault.
 
-$$AllianceVaultReward={\cfrac{AllianceVault}{TotalAllianceNFTsCount+1}}$$
+$$Alliance\space Vault\space Reward={\cfrac{Alliance\space Vault}{Total\space Alliance\space NFTs\space Count+1}}$$
 
 #### 3. Land Tax
 
