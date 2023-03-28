@@ -1,10 +1,10 @@
 # Tokenomics
 
-## $MT
+$MT
 
 $MT, an ERC-20 token with a total supply of 100 billion, serves as the value carrier for MOPN. The initial supply is 6,000 per block, and it decreases by 0.3% every 50,000 blocks.
 
-<figure><img src=".gitbook/assets/mt_trends (1).png" alt=""><figcaption><p>$MT Supply</p></figcaption></figure>
+<figure><img src=".gitbook/assets/MT.jpeg" alt=""><figcaption><p>$MT Supply</p></figcaption></figure>
 
 All NFTs placed on tiles automatically receive $MT earnings per block based on their weight (requires manual claiming).
 
@@ -16,13 +16,13 @@ $MT is used to auction bombs and lands, with 100% of the $MT used for auction be
 
 Users can earn $MT by placing their owned NFTs on unoccupied tiles on the MOPN map.
 
-$$Placing\space   NFT\space   Earnings(Perblock)={(\cfrac{NFT\space  Weight+Tile\space Weight}{Total\space NFT \space Weight+Total\space  Tile\space Weight}}\times{MT\space Supply\space Perblock})*90\%$$
+<figure><img src=".gitbook/assets/Placing NFT Earn.jpeg" alt=""><figcaption></figcaption></figure>
 
 #### 2. Alliance Placing Reward
 
 Placing an NFT on a tile can immediately earn an $MT reward from the alliance vault.
 
-$$Alliance\space Vault\space Reward={\cfrac{Alliance\space Vault}{Total\space Alliance\space NFTs\space Count+1}}$$
+<figure><img src=".gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 #### 3. Land Tax
 
@@ -38,9 +38,11 @@ BOMB, a 100-token auction of an ERC-1155 token via LPDA per round, serves as the
 
 Using BOMB can remove all NFTs on the 7 tiles centered around the placement point. The NFT used for bombing will not be affected.
 
-<figure><img src=".gitbook/assets/bomb_info (3).png" alt=""><figcaption><p>Bomb effect</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Bomb.jpeg" alt=""><figcaption><p>Bomb effect</p></figcaption></figure>
 
-BOMB will be burned after use. The weight for generating $MT of the NFT which uses one BOMB will increase by 1.
+BOMB will be burned after use.&#x20;
+
+The weight for generating $MT of the NFT which uses one BOMB will increase by 1.
 
 ### How to obtain
 
@@ -48,9 +50,9 @@ BOMB will be burned after use. The weight for generating $MT of the NFT which us
 
 Through a Last Price Dutch Auction (LPDA), starting from 1 million $MT, 100 bombs will be auctioned off each round, with the price decreasing by 1% per minute. BOMBs can be minted at any time in quantities less than the remaining tokens for the current round.
 
-<figure><img src=".gitbook/assets/bomb_price (1).png" alt=""><figcaption><p>BOMB Auction Price</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Auction.jpeg" alt=""><figcaption><p>BOMB Auction Price</p></figcaption></figure>
 
-Once all the 100 tokens are auctioned out, the next round will automatically start. Transactions that bid higher than the current minimum bid will receive an $MT refund for the difference.
+Once all the 100 bombs are auctioned out, the next round will automatically start. Transactions that bid higher than the current minimum bid will receive an $MT refund for the difference.
 
 #### 2. BUY
 
@@ -60,7 +62,7 @@ Users can buy BOMB on marketplaces such as OpenSea.
 
 Land, an ERC-721 NFT with a fixed total supply of 10,981 and consisting of 91 tiles, serves as a tax tool.
 
-<figure><img src=".gitbook/assets/land_nft (2).png" alt=""><figcaption><p>Land NFT</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Land NFT.png" alt=""><figcaption><p>Land NFT</p></figcaption></figure>
 
 After a land is minted, NFTs can be placed on its tiles, and the land NFT will display the occupying alliance.
 
@@ -74,13 +76,13 @@ All land NFTs are issued through two methods: ETH curve minting and $MT auction 
 
 Pricing starts at 0.02 ETH, with a price increase of 1‰ for each completed ETH curve mint. ETH curve minting will be available soon.
 
-<figure><img src=".gitbook/assets/land_eth_price (1).png" alt=""><figcaption><p>The ETH Auction Price for land NFT</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Land ETH.jpeg" alt=""><figcaption><p>The ETH Auction Price for land NFT</p></figcaption></figure>
 
 #### 2. $MT Auction Minting
 
 Through a Dutch auction, starting from 10 million $MT, one land will be auctioned off each round, with the price decreasing by 1% per minute. When the current $MT Auction Minting is complete, the next round will automatically start.
 
-<figure><img src=".gitbook/assets/land_mt_price (1).png" alt=""><figcaption><p>The $MT Auction Price for land NFT</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Land MT.jpeg" alt=""><figcaption><p>The $MT Auction Price for land NFT</p></figcaption></figure>
 
 #### 3. BUY
 
