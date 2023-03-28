@@ -39,7 +39,7 @@ Every 91 tiles form a land, and there are 10,980 lands that make up the entire M
 
 There are three types of tiles in the MOPN: Common, Rare, and Legendary, each with different weights.
 
-|           | ICON                                                           | Tile Weight | Percentage | Amount |
+| Types     | icon                                                           | Tile Weight | Percentage | Amount |
 | --------- | -------------------------------------------------------------- | ----------- | ---------- | ------ |
 | Common    | -                                                              | 1           | 81%        | 809212 |
 | Rare      | <img src=".gitbook/assets/icon1.svg" alt="" data-size="line">  | 5           | 18%        | 180032 |
