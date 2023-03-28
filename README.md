@@ -31,7 +31,7 @@ After placing NFT, the $MT rewards are allocated to NFT holder, NFT collection v
 
 Tile is the basic unit on the map, and each tile is a regular hexagon with a unique coordinate. There are a total of 999,271 tiles on the map.
 
-<figure><img src=".gitbook/assets/09.png" width="50%" alt=""><figcaption><p>Tile Coordinate</p></figcaption></figure>
+<figure aligen="center"><img src=".gitbook/assets/09.png" width="50%" alt=""><figcaption><p>Tile Coordinate</p></figcaption></figure>
 
 Every 91 tiles form a land, and there are 10,980 lands that make up the entire MOPN map, surrounded by a central area.
 
