@@ -2,7 +2,7 @@
 
 ## Phase 1 - Genesis Land Open
 
-March 31, 2023.
+March 31, 2023. 08:00:00 UTC
 
 ## Phase 2 - Testnet&#x20;
 
