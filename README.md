@@ -2,74 +2,73 @@
 
 ## Overview
 
-MOPN (Map of Popular NFTs) is a fully on-chain media, built on open-source, with a fair launch and no admin control.&#x20;
+MOPN (Map Of Populars NFTs) is an infinity fully on-chain game built on Ethereum, open-source, fair launch, no admin.
 
-By simple rules of collaboration and competition, MOPN aims to aggregate ethereum's erc-721 NFTs into a dynamic map, and help NFT collectors to gain more attention.
+On a limited public map, players can freely place any ERC-721 NFTs. All NFTs follow the simple rules, engaging in open competition and cooperation, which leads to emergence of order.
 
-## Rules
+## How To Play
 
-1. The map consists of 999,271 tiles;
-2. Place NFTs on tiles to earn MOPN Token ($MT);
-3. Use a bomb to remove others' NFTs from a tile.
+1. MOPN builds a public MAP consisting of 999,271 tiles.
+2. Players place any ERC-721 NFT on an unoccupied tile and earn MOPN Token ($MT) over time.
+3. $MT can be used to auction Bombs, which can take out tiles.
 
 ## Account
 
-* Users use the wallet as their account to access MOPN.
-* MOPN only verifies NFT ownership, and can not authorize or transfer the NFT.
+For every NFT that participates, MOPN creates an ERC-6551 account. For more information about MOPN's ERC-6551 account, please see the [detail](mopn-erc-6551-account.md).
+
+The $MT rewards earned from placing NFTs are allocated directly to the MOPN ERC-6551 account. The account owner has the authority to transfer these assets.
+
+The MOPN ERC-6551 Account has implemented a mechanism for ownership transfers. Building on this, MOPN has designed an innovative open bid rent protocol, addressing the issue of separating ownership and usage rights for NFTs, for more [detail](open-bid-rent.md).
 
 ## Place
 
 * The map is divided into 10,981 land areas, each containing 91 tiles.
 * Lands can be minted with ETH or MOPN Token ($MT), Only on minted lands can NFTs be placed.
-* For NFTs from the same collection, the distance must be <2 tiles apart, while for NFTs from different collections, it must be ≥2 tiles apart.
-* NFTs placed on tiles automatically gain $MT earnings per block based on their points.
+* NFTs must be placed adjacent to another NFT from the same collection, with a distance of 2 tiles or less, A bomb is necessary if the placed tile is within 2 tiles of an NFT from a different collection.
+* NFTs placed on tiles automatically earn $MT per block based on their MOPN Point.
 
-## MOPN Token ($MT)
+## MOPN Token (ERC-20)
 
 ### Production
 
-* $MT is an ERC-20 token with a total supply of 1 billion. The initial supply is 5 per second, and it decreases by 0.3% every 10,000 minutes.
-* $MT production begins only after the official launch of MOPN on ethereum.
+* MOPN Token ($MT) is an ERC-20 token with a total supply of 1 billion.
+* The initial supply is 60/block, and it decreases by 3‰ every 50,000 blocks.
 
 ### Distribution
 
-Users can earn $MT by placing owned NFTs on tiles.
+For each block, the produced $MT is distributed based on the proportion of Point from all NFTs placed on map.
 
 $$
-\text{Placing NFT Earnings} = \frac{\text{NFT Points}}{\sum \text{NFT Points} \text{(in Map)}} \times \text{Supply(second)} \times \text{Time(second)}
+\text{NFT Earnings} = \frac{\text{NFT Point}}{\sum \text{NFT Point} \text{(on Map)}} \times \text{Supply(blocks)}
 $$
 
-Upon placing an NFT, the $MT earnings are allocated in a ratio of 90% to the NFT holder, 5% to the collection vault, and 5% to the land holder.
+When an NFT is placed, 90% of the earned $MT is allocated to the NFT's ERC-6551 account, 5% goes to the collection vault, and the remaining 5% is distributed to the ERC-6551 account of the land where the NFT is placed.
 
-### NFT Points
+## MOPN BOMB (ERC-1155)
 
-NFT Points are the sum of tile points, activity points, collection points, and collection buff.
+### Production
 
-* **Tile Points**: There are three types of tiles, each assigned with different points: Common (+1 points), Rare (+5 points) , and Legendary (+15 points).
-* **Activity Points**: The NFT permanently gains +1 activity points after using a bomb.
-* **Collection Points**: Collection Vault's $MT x 10^(-4)
-* **Genesis** **Buff Points**: MOPN will grant different genesis buff points to a group of NFT collection. The criteria for selecting these collections include reaching specific values for highest bid, best offer, and total trading volume. After 30 days, these buff points will reset to zero.
+* MOPN BOMB is an ERC-1155 token, issued by [LPDA](./#lpda-later-price-dutch-auction) (Later Price Dutch Auction).
+* In each auction round, the system auctions one bomb for every 10 open lands.
 
-## MOPN BOMB
+### LPDA (Later Price Dutch Auction)
 
-* BOMB is an ERC-1155 token with unlimited supply, auctioned per round using the LPDA.
-* Using BOMB can remove all NFTs on the 7 tiles centered around the placement tile.
-* The used BOMB tokens will be burned.
-* The points of the NFT which uses one BOMB will increase by 1.
+* The price for bombs in every auction round begins at 10,000 $MT and decreases by 1% every 5 blocks.
+* Once all the bombs are auctioned out, the next round will automatically start.
+* Transactions that bid higher than the price of the fifth transaction after the current one in this round will automatically receive a refund for the difference.
+* The used $MT for auctioning bombs will be burned.
 
-### LPDA
+### Use
 
-* Price starting from 1 million $MT, 10 bombs will be auctioned off each round, with the price decreasing by 1% per minute.
-* BOMB can be minted at any time in quantities less than the remaining tokens for the current round.
-* Once all the 10 bombs are auctioned out, the next round will automatically start.
-* Transactions that bid higher than the current minimum bid for this round will receive an $MT refund for the difference.
-* The used $MT for auctioning BOMB will be burned.
+* If the tile of the placed NFT is within 2 tiles of an NFT from a different collection, a bomb is required to be used.
+* The bomb will remove NFTs from different collections in the area from the map. For every NFT removed, one bomb needs to be used.
+* The used bomb tokens will be burned.
 
-## MOPN Land
+## MOPN Land (ERC-721)
 
 * Land is an ERC-721 NFT with a fixed total supply of 10,981 and consisting of 91 tiles.
 * After a land is minted, NFTs can be placed on its tiles.
-* The land holder can receive 5% of the $MT generated by NFTs placed on the 91 tiles on it.
+* NFTs on the 91 tiles contribute 5% of their $MT earnings to the land NFT's ERC-6551 account.
 * All land NFTs are issued through two methods: ETH curve minting and $MT auction minting.
 
 ### ETH Curve Minting
@@ -83,35 +82,9 @@ NFT Points are the sum of tile points, activity points, collection points, and c
 * When the current $MT auction minting is complete, the next round will automatically start.
 * The used $MT for auctioning land will be burned.
 
-## Collection Vault
+## MOPN Point
 
-* Each collection has its own vault.
-* The vault balance contains only $MT, sourced from a 5% share of NFT earnings and from staking.
-* The amount of $MT in the vault determines the collection points.
-* By staking $MT to the collection vault, you can boost the collection points and also share in the vault's earnings.
+Every NFT's ERC-6551 account, when placed on the map, includes MOPN Point — a non-transferable ERC-20 token. These tokens are used to measure the NFT's current mining weight, consisting of both the tile point and the collection point.
 
-### Staking
-
-* By staking $MT to any collection vault, you will boost the collection points, and receive the earnings from collection vault.
-* At any time, you can redeem them, including the earnings, for $MT from the vault based on your stake shares.
-
-### Bid NFT
-
-The vault automatically makes bids for the collection NFTs, with prices updated in real-time. NFT holders can accept these bids to complete transactions.The bid price is calculated by multiplying the current vault balance by the bid factor.
-
-$$
-\text{Bid factor} = \left(1-\frac{\$MT\ \text{Amount Of the Latest Successful Bid}}{\text{Total \$MT balance of all Vaults}}\right) \times \text{Previous bid factor}
-$$
-
-### Auction NFT
-
-* After the NFT holder successfully accepts the bid from the vault, the vault automatically initiates the auction for the NFT.
-* The auction price starts at 200% of the bid price in $MT, and decreases by 1% per minute.
-* Anyone can purchase the auctioned NFT at the current price.
-* After the auction is completed, 95% of the final price goes directly into the vault, and the remaining 5% is burned.
-
-## Value
-
-Throughout the years, the "attention economy" has been the core business model of the media. Whether it's newspapers, television, Facebook, or Twitter, they all be based on "attention": capturing the public's focus by creating content and embedding advertisements in content delivery channels. This centralized attention distribution mechanism makes the media easily controlled by individuals or organizations, resulting in a loss of credibility.
-
-MOPN is the first fully on-chain media on Ethereum, aiming to replace the attention economy with a token economy. It incentivizes NFT holders to interact and drive dynamic updates on the map, showcasing the prosperity and decline of different NFT communities.With transparent rules, full on-chain operation, and no centralized control, MOPN stands as a witness to the history of the NFT ecosystem.
+* **Tile Point**: There are three types of tiles, each assigned with different point: Common (+1 point), Rare (+5 point) , and Legendary (+15 point).
+* **Collection Point**: Every NFT collection holds a unique vault, and the collection point is determined by the $MT balance within this vault, multiplied by 10^(-4).
