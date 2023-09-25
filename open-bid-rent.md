@@ -2,7 +2,9 @@
 
 ## Introduction
 
-The open bid rent is a new type of protocol without a fixed term, which is natively supported by the MOPN ERC-6551 account. At any moment, a renter with a higher bid will automatically replace the previous renter and become the new owner of ERC-6551 account. The nft holder can cancel the rental and reset the account owner at any time.
+The open bid rent is a new type of protocol without a fixed term, which is natively supported by the MOPN ERC-6551 account. With the open bid rent, MOPN will improve the capital efficiency of NFT assets.
+
+At any moment, a renter with a higher bid will automatically replace the previous renter and become the new owner of ERC-6551 account. The nft holder can cancel the rental and reset the account owner at any time.
 
 ## Rental Floor Price
 
