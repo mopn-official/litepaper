@@ -20,7 +20,7 @@ The $MT rewards earned from placing NFTs are allocated directly to the MOPN ERC-
 
 The MOPN ERC-6551 Account has implemented a mechanism for ownership transfers. Building on this, MOPN has designed an innovative open bid rent protocol, addressing the issue of separating ownership and usage rights for NFTs, for more [detail](open-bid-rent.md).
 
-## Place
+## Map
 
 * The map is divided into 10,981 land areas, each containing 91 tiles.
 * Lands can be minted with ETH or MOPN Token ($MT), Only on minted lands can NFTs be placed.
