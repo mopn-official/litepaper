@@ -16,7 +16,7 @@ $$C' =  \begin{cases}  C \times (99\%)^t &\text{no bid rent for 5 continuous blo
 
 Every nft's ERC-6551 account has a dynamic rental price, when the number of blocks since the last open bid rent transaction for that NFT is ≤ 200,000, the dynamic rental price is always at 110% of the last completed rent price. However, once it exceeds 200,000, it starts to decrease from 110% of the last completed rent price, decreasing by 0.0005% per block.
 
-$$R' =  \begin{cases}   R\times 110\% & \text{if } n \leq 200,000 \\ R\times 110\%  \times \left(0.0005\% \right)^{(n-200,000)} & \text{if } n > 200,000 \end{cases}$$
+$$R' =  \begin{cases}   R\times 110\% & \text{if } n \leq 200,000 \\ R\times 110\%  \times \left(99.9995\% \right)^{(n-200,000)} & \text{if } n > 200,000 \end{cases}$$
 
 ## Bid Rent
 
