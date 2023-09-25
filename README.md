@@ -84,7 +84,7 @@ When an NFT is placed, 90% of the earned $MT is allocated to the NFT's ERC-6551 
 
 ## MOPN Point
 
-Every NFT's ERC-6551 account, when placed on the map, includes MOPN Point — a non-transferable ERC-20 token. These tokens are used to measure the NFT's current mining weight, consisting of both the tile point and the collection point.
+Every NFT's ERC-6551 account, when placed on the map, includes MOPN Point. This point measure the NFT's mining weight, consisting of both the tile point and the collection point.
 
 * **Tile Point**: There are three types of tiles, each assigned with different point: Common (+1 point), Rare (+5 point) , and Legendary (+15 point).
 * **Collection Point**: Every NFT collection holds a unique vault, and the collection point is determined by the $MT balance within this vault, multiplied by 10^(-4).
