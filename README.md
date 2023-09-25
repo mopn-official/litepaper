@@ -78,7 +78,7 @@ When an NFT is placed, 90% of the earned $MT is allocated to the NFT's ERC-6551 
 
 ### $MT Auction Minting
 
-* The starting price is 1 million $MT, and one land will be auctioned per round, with the price decreasing by 1% per minute.
+* The starting price is 1 million $MT, and one land will be auctioned per round, with the price decreasing by 1% per 5 blocks.
 * When the current $MT auction minting is complete, the next round will automatically start.
 * The used $MT for auctioning land will be burned.
 
