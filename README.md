@@ -54,7 +54,7 @@ If placed by non-owner, the distribution changes to 80% to the NFT's ERC-6551 ac
 * The used $MT for buying bombs will be burned.
 
 $$
-\text{Bomb Price} = \frac{\text{The current } \$\mathit{MT} \text{ supply per block}}{\text{Open Tiles}} \times 5 \times 10^4
+\text{Bomb Price} = \frac{\text{The current } \$\mathit{MT} \text{ supply per block}}{\text{Open Tiles}} \times 50000
 $$
 
 ### Use
