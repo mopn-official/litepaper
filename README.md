@@ -1,4 +1,4 @@
-# MOPN
+# Brief
 
 ## Overview
 
@@ -8,24 +8,23 @@ On a limited public map, players can freely place any ERC-721 NFTs. All NFTs fol
 
 ## How To Play
 
-1. MOPN builds a public MAP consisting of 999,271 tiles.
+1. MOPN builds a public map consisting of 999,271 tiles.
 2. Players place any ERC-721 NFT on an unoccupied tile and earn MOPN Token ($MT) over time.
-3. $MT can be used to auction Bombs, which can take out tiles.
+3. $MT can be used to buy Bombs for clearing tiles or mint land for tax collection.
 
 ## Account
 
-For every NFT that participates, MOPN creates an ERC-6551 account. For more information about MOPN's ERC-6551 account, please see the [detail](mopn-erc-6551-account.md).
+For every NFT that participates, MOPN creates an [ERC-6551 account](erc-6551-account.md).
 
 The $MT rewards earned from placing NFTs are allocated directly to the MOPN ERC-6551 account. The account owner has the authority to transfer these assets.
 
-The MOPN ERC-6551 Account has implemented a mechanism for ownership transfers. Building on this, MOPN has designed an innovative open bid rent protocol, addressing the issue of separating ownership and usage rights for NFTs, for more [detail](open-bid-rent.md).
-
-## Map
+## Place
 
 * The map is divided into 10,981 land areas, each containing 91 tiles.
 * Lands can be minted with ETH or MOPN Token ($MT), Only on minted lands can NFTs be placed.
 * NFTs must be placed adjacent to another NFT from the same collection, with a distance of 2 tiles or less, A bomb is necessary if the placed tile is within 2 tiles of an NFT from a different collection.
 * NFTs placed on tiles automatically earn $MT per block based on their MOPN Point.
+* Placing others' NFTs allows for receiving 10% of the earned $MT.
 
 ## MOPN Token (ERC-20)
 
@@ -38,25 +37,20 @@ The MOPN ERC-6551 Account has implemented a mechanism for ownership transfers. B
 
 For each block, the produced $MT is distributed based on the proportion of Point from all NFTs placed on map.
 
-$$
-\text{NFT Earnings} = \frac{\text{NFT Point}}{\sum \text{NFT Point} \text{(on Map)}} \times \text{Supply(blocks)}
-$$
+When an NFT is placed by the owner, 90% of the earned $MT goes to the NFT's ERC-6551 account, 5% to the collection vault, and 5% to the land's ERC-6551 account where the NFT is placed.&#x20;
 
-When an NFT is placed, 90% of the earned $MT is allocated to the NFT's ERC-6551 account, 5% goes to the collection vault, and the remaining 5% is distributed to the ERC-6551 account of the land where the NFT is placed.
+If placed by non-owner, the distribution changes to 80% to the NFT's ERC-6551 account, 10% to the placer, 5% to the collection vault, and 5% to the land's ERC-6551 account.
 
 ## MOPN BOMB (ERC-1155)
 
 ### Production
 
-* MOPN BOMB is an ERC-1155 token, issued by [LPDA](./#lpda-later-price-dutch-auction) (Later Price Dutch Auction).
-* In each auction round, the system auctions one bomb for every 10 open lands.
+* MOPN BOMB is an ERC-1155 token, automatically issued by the system.
+* The used $MT for buying bombs will be burned.
 
-### LPDA (Later Price Dutch Auction)
-
-* The price for bombs in every auction round begins at 10,000 $MT and decreases by 1% every 5 blocks.
-* Once all the bombs are auctioned out, the next round will automatically start.
-* Transactions that bid higher than the price of the fifth transaction after the current one in this round will automatically receive a refund for the difference.
-* The used $MT for auctioning bombs will be burned.
+$$
+\text{Bomb Price} = \frac{\text{The current } \$\mathit{MT} \text{ supply per block}}{\text{Open Tiles}} \times 5 \times 10^4
+$$
 
 ### Use
 
@@ -86,5 +80,14 @@ When an NFT is placed, 90% of the earned $MT is allocated to the NFT's ERC-6551 
 
 Every NFT's ERC-6551 account, when placed on the map, includes MOPN Point. This point measure the NFT's mining weight, consisting of both the tile point and the collection point.
 
-* **Tile Point**: There are three types of tiles, each assigned with different point: Common (+1 point), Rare (+5 point) , and Legendary (+15 point).
-* **Collection Point**: Every NFT collection holds a unique vault, and the collection point is determined by the $MT balance within this vault, multiplied by 10^(-4).
+### Tile Point
+
+There are three types of tiles, each assigned with different point: Common (+1 point), Rare (+5 point) , and Legendary (+15 point).
+
+### Collection Point
+
+Every NFT collection holds a unique vault, and the collection point is determined by the $MT balance within this vault.
+
+$$
+\text{Collection Point} = 0.3 \times \sqrt{\text{Collection Vault } \$MT}
+$$

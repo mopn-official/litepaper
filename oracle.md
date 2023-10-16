@@ -1,10 +1,10 @@
-# MOPN Oracle
+# Oracle
 
 ## Introduction
 
 As a map of popular NFTs, the market price of collections is a key indicator. However, when we attempted to integrate collections into the MOPN economic system, we encountered a challenge: as a fully on-chain game, how can we obtain information about NFT prices solely from on-chain data, without relying on a centralized oracle system, and prevent price manipulation?
 
-To address this, we've established Collection Vault Staking as an on-chain Oracle, furnishing MOPN with signals regarding Collection floor prices.
+To address this, we've established collection vault staking as an on-chain Oracle, furnishing MOPN with signals regarding collection floor prices.
 
 ## Vault
 
