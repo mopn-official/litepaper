@@ -24,7 +24,12 @@ The $MT rewards earned from placing NFTs are allocated directly to the MOPN ERC-
 * Lands can be minted with ETH or MOPN Token ($MT), Only on minted lands can NFTs be placed.
 * NFTs must be placed adjacent to another NFT from the same collection, with a distance of 2 tiles or less, A bomb is necessary if the placed tile is within 2 tiles of an NFT from a different collection.
 * NFTs placed on tiles automatically earn $MT per block based on their MOPN Point.
-* Placing others' NFTs allows for receiving 10% of the earned $MT.
+
+## Agent Place
+
+* Any placers can act as an agent to place others' NFTs.
+* Agenters can earn 10% of the $MT earned from placing the NFT as a reward.
+* The reward can only be transferred to the wallet once claimed by the NFT owner.
 
 ## MOPN Token (ERC-20)
 

@@ -1,10 +1,10 @@
-# Oracle
+# Collection Vault
 
 ## Introduction
 
 As a map of popular NFTs, the market price of collections is a key indicator. However, when we attempted to integrate collections into the MOPN economic system, we encountered a challenge: as a fully on-chain game, how can we obtain information about NFT prices solely from on-chain data, without relying on a centralized oracle system, and prevent price manipulation?
 
-To address this, we've established collection vault staking as an on-chain Oracle, furnishing MOPN with signals regarding collection floor prices.
+To address this, we've established collection vault staking as an on-chain oracle, furnishing MOPN with signals regarding collection floor prices.
 
 ## Vault
 
@@ -21,7 +21,9 @@ To address this, we've established collection vault staking as an on-chain Oracl
 
 ## Bid NFT
 
-The vault automatically makes bids for the collection NFTs, with prices updated in real-time. NFT holders can accept these bids to complete transactions. The bid price is calculated by multiplying the current vault balance by the bid factor.
+* The vault automatically makes bids for the collection NFTs, with prices updated in real-time.&#x20;
+* NFT holders can accept these bids to complete transactions. The bid price is calculated by multiplying the current vault balance by the global bid factor.
+* The initial bid factor value is 1%,  the bid factor formula is:&#x20;
 
 $$
 \text{Bid factor} = \left(1-\frac{\$MT\ \text{Amount Of the Latest Successful Bid}}{\text{Total \$MT balance of all Vaults}}\right) \times \text{Previous bid factor}
