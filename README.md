@@ -27,7 +27,8 @@ The $MT rewards earned from placing NFTs are allocated directly to the MOPN ERC-
 
 ## Agent Place
 
-* Any placers can act as an agent to place others' NFTs.
+* Any players can act as an agent to place others' unplaced NFTs.
+* Players are not allowed to move the NFTs they agent-placed.
 * Agenters can earn 10% of the $MT earned from placing the NFT as a reward.
 * The reward can only be transferred to the wallet once claimed by the NFT owner.
 
@@ -44,7 +45,7 @@ For each block, the produced $MT is distributed based on the proportion of Point
 
 When an NFT is placed by the owner, 90% of the earned $MT goes to the NFT's ERC-6551 account, 5% to the collection vault, and 5% to the land's ERC-6551 account where the NFT is placed.&#x20;
 
-If placed by non-owner, the distribution changes to 80% to the NFT's ERC-6551 account, 10% to the placer, 5% to the collection vault, and 5% to the land's ERC-6551 account.
+If placed by agenter, the distribution changes to 80% to the NFT's ERC-6551 account, 10% to the agenter, 5% to the collection vault, and 5% to the land's ERC-6551 account.
 
 ## MOPN BOMB (ERC-1155)
 
