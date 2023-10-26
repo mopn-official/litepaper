@@ -1,4 +1,4 @@
-# Brief
+# MOPN
 
 ## Overview
 
@@ -52,10 +52,10 @@ If placed by agenter, the distribution changes to 80% to the NFT's ERC-6551 acco
 ### Production
 
 * MOPN BOMB is an ERC-1155 token, automatically issued by the system.
-* The used $MT for buying bombs will be burned.
+* To obtain bombs, the player must burn some $MT.
 
 $$
-\text{Bomb Price} = \frac{\text{The current } \$\mathit{MT} \text{ supply per block}}{\text{Open Tiles}} \times 50000
+\text{Burn Amount} = \frac{\text{The current } \$\mathit{MT} \text{ supply per block}}{\text{Open Tiles}} \times 50000
 $$
 
 ### Use

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Brief](README.md)
+* [MOPN](README.md)
 * [Why create](why-create.md)
 * [ERC-6551 Account](erc-6551-account.md)
 * [Collection Vault](collection-vault.md)
