@@ -12,7 +12,7 @@ Fundamentally, MOPN transforms attention and consensus into measurable value. Wh
 
 In MOPN, every placed NFT acts like a bitcoin mining machine, each with different hashing power. Driven by token rewards, they collectively maintain a unique consensus. While bitcoin's consensus focuses on the value of digital gold, MOPN's consensus reflects the popularity of NFTs within ethereum.
 
-## Philosophy
+## Principles
 
 * Permissionless
 * Interoperable
