@@ -1,4 +1,6 @@
-# Why create
+# Narrative
+
+## What's the MOPN
 
 MOPN is a complex system constructed from simple rules, and it can also be viewed as an innovative socio-economic experiment.
 
@@ -9,3 +11,13 @@ MOPN operates like a dissipative system. Paying gas leads to an energy loss. Wit
 Fundamentally, MOPN transforms attention and consensus into measurable value. When the gas energy expended by MOPN balances with the energy derived from attention and consensus, MOPN can transition to a self-sustaining system. This equilibrium is our desired goal.
 
 In MOPN, every placed NFT acts like a bitcoin mining machine, each with different hashing power. Driven by token rewards, they collectively maintain a unique consensus. While bitcoin's consensus focuses on the value of digital gold, MOPN's consensus reflects the popularity of NFTs within ethereum.
+
+## Philosophy
+
+* Permissionless
+* Interoperable
+* Persistent
+* Immutable
+* Client-agnostic
+* Open ecosystem principles
+* Logic and rules are implemented via smart contract
