@@ -95,5 +95,5 @@ There are three types of tiles, each assigned with different point: Common (+1 p
 Every NFT collection holds a unique vault, and the collection point is determined by the $MT balance within this vault.
 
 $$
-\text{Collection Point} = 0.3 \times \sqrt{\frac{\text{Collection Vault } \$MT}{10000}}
+\text{Collection Point} = 0.003 \times \sqrt{\text{Collection Vault } \$MT}
 $$
