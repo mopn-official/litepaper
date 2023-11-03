@@ -1,3 +1,0 @@
-# Developing for MOPN
-
-TBD.
