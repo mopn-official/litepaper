@@ -1,6 +1,6 @@
 # NFT Open Rule
 
-The NFT open rule was designed to guard against sybil attacks in the early stages, and  collections are gradually unlocked and available for placement on the MOPN map as specific Map Point milestones are reached.
+The NFT open rule was designed to protect against sybil attacks in the early stages, and  collections are gradually unlocked and available for placement on the MOPN map as specific Map Point milestones are reached.
 
 ## Goerli&#x20;
 
