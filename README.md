@@ -29,8 +29,12 @@ The $MT rewards earned from placing NFTs are allocated directly to the MOPN ERC-
 
 * Any players can act as an agent to place others' unplaced NFTs.
 * Players are not allowed to move the NFTs they agent-placed.
-* Agenters can earn 10% of the $MT earned from placing the NFT as a reward.
 * The reward can only be transferred to the wallet once claimed by the NFT owner.
+* Agenters can earn a variable percentage (P) of the $MT rewards based on the position order of the NFTs they agent place within this collection.
+
+$$
+P = 0.6 \cdot e^{\textit{-0.0006} x}
+$$
 
 ## MOPN Token (ERC-20)
 

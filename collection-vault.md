@@ -22,11 +22,11 @@ To address this, we've established collection vault staking as an on-chain oracl
 ## Vault Bid
 
 * The vault automatically makes bids for the collection NFTs, with prices updated in real-time.&#x20;
-* NFT holders can accept these bids to complete transactions. The bid price is calculated by multiplying the current vault balance by the global bid factor.
-* The initial bid factor value is 1%,  the bid factor formula is:&#x20;
+* NFT holders can accept these bids to complete transactions. The bid price is calculated by multiplying the current vault balance by the collection bid factor.
+* The initial bid factor starts at 20% and decreases by p% per bid. After every 7200 blocks without a bid, it increases by 1%, but does not exceed the initial value.&#x20;
 
 $$
-\text{Bid factor} = \left(1-\frac{\$MT\ \text{Amount Of the Latest Successful Bid}}{\text{Total \$MT balance of all Vaults}}\right) \times \text{Previous bid factor}
+P\% = 1 - \frac{\text{\textdollar}MT \text{ bid price}}{\text{\textdollar}MT \text{ balance of collection vault}}
 $$
 
 ## Vault Ask
