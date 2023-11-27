@@ -9,17 +9,5 @@ The collection open rule was designed to protect against sybil attacks in the ea
 On the day before the official release of MOPN, we took a [snapshot](https://dune.com/mopn/collection-open-rule) of an ERC721 collection on Ethereum. This snapshot considered the past 30 days transaction volume, owner count, and total supply to calculate a ranking score.
 
 $$
-\text{Score} = V \cdot e^{-k (S - S_0)^2} \cdot \frac{O}{S}
+Score = \text{Past 30 days volume} \cdot {\Large e}^{-(\text 10^{-10}) \cdot (\text{supply} - 10000)^2} \cdot \frac{\text{owners}}{\text{supply}}
 $$
-
-$$V$$: The trading volume over the past 30 days
-
-$$e$$: The base of the natural logarithm
-
-$$k$$: A small positive constant `0.0000000001`
-
-$$S$$: The total supply of collection
-
-$$S_0​$$: A specified benchmark for the supply, set 10000
-
-$$O$$: Refers to the number of collection owners
