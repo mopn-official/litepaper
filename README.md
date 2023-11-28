@@ -30,7 +30,7 @@ The $MT rewards earned from placing NFTs are allocated directly to the MOPN ERC-
 * Any player can act as an agent to place other unplaced NFTs and earn different agent reward rates.
 * Players cannot move or claim NFTs they've placed as agents.
 * When an agent-placed NFT is moved, claimed, or bombed, the agent status ends, and the agenter's $MT rewards are settled automatically.
-* The agent reward rate decreases as the number of agent-placed NFTs in the collection increases. The reward rate for the first agent-placed NFT in a collection is 60%, while the nth agent-placed NFT receives a reward rate of $$\textit{60\%} \cdot e^{-\textit{0.0006} \cdot (n-1)}$$.
+* The agent reward rate decreases as the number of agent-placed NFTs in the collection increases. The reward rate for the first agent-placed NFT in a collection is 60%, while the nth agent-placed NFT receives a reward rate of $$\textit{60\%} \cdot (1-\textit{0.06\%})^{(n-1)}$$.
 
 ## MOPN Token (ERC-20)
 
@@ -53,9 +53,10 @@ If placed by agenter, the distribution changes to 80% to the NFT's ERC-6551 acco
 
 * MOPN BOMB is an ERC-1155 token, automatically issued by the system.
 * To obtain bombs, the player must burn some $MT.
+* The $MT burn amount depends on the number of opened tiles, the current $MT production per block, and the bomb production in the last 24 hours.
 
 $$
-\text{Burn Amount} = \frac{\text{The current } \$\mathit{MT} \text{ supply per block}}{\text{Open Tiles}} \times 50000
+\text{Amount} = \textit{50400} \cdot \frac{\textit{\$MT production}}{\text{tiles}} \cdot e^{\textit{14} \cdot \frac{\textit{bomb production}}{\text{tiles}} - \textit{1}}
 $$
 
 ### Use
@@ -92,8 +93,6 @@ There are three types of tiles, each assigned with different point: Common (+1 p
 
 ### Collection Point
 
-Every NFT collection holds a unique vault, and the collection point is determined by the $MT balance within this vault.
+Every NFT collection holds a unique vault that receives 5% of all $MT mining rewards earned by the NFTs in the collection. The vault also allows anyone to stake $MT.
 
-$$
-\text{Collection Point} = 0.003 \times \sqrt{\text{Collection Vault } \$MT}
-$$
+The collection point is initially set at $$\textit{0.003}\cdot\sqrt{\text{vault\ \$MT}}$$ . After the first vault ask transaction, it becomes the minimum between this value and $$\textit{0.03}\cdot\sqrt{\text{vault last\ ask\ price}}$$.
