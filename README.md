@@ -45,7 +45,7 @@ For each block, the produced $MT is distributed based on the proportion of Point
 
 When an NFT is placed by the owner, 90% of the earned $MT goes to the NFT's ERC-6551 account, 5% to the collection vault, and 5% to the land's ERC-6551 account where the NFT is placed.&#x20;
 
-If placed by agenter, the distribution changes to 80% to the NFT's ERC-6551 account, 10% to the agenter, 5% to the collection vault, and 5% to the land's ERC-6551 account.
+If placed by an agenter, the distribution rate for agenter is determined based on the order of placement, with the remaining 90% to the NFT owner.&#x20;
 
 ## MOPN BOMB (ERC-1155)
 

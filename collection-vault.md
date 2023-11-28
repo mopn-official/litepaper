@@ -31,5 +31,5 @@ To address this, we've established collection vault staking as an on-chain oracl
 * After the NFT holder successfully accepts the bid from the vault, the vault automatically initiates the Dutch Auction for the NFT.
 * The auction ask price starts at 125% of the bid price in $MT, and decreases by 0.05% per block, reaching a minimum of 1 $MT.
 * Anyone can buy the NFT at the current price.
-* After the auction is completed, 99.5% of the final price goes directly into the vault, and the remaining 0.55% is burned.
+* After the auction is completed, 99.5% of the final price goes directly into the vault, and the remaining 0.5% is burned.
 * When a collection is auctioning an NFT, staking $MT is not allowed.
