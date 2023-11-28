@@ -22,17 +22,14 @@ To address this, we've established collection vault staking as an on-chain oracl
 ## Vault Bid
 
 * The vault automatically makes bids for the collection NFTs, with prices updated in real-time.&#x20;
-* NFT holders can accept these bids to complete transactions. The bid price is calculated by multiplying the current vault balance by the collection bid factor.
-* The initial bid factor starts at 20% and decreases by p% per bid. After every 7200 blocks without a bid, it increases by 1%, but does not exceed the initial value.&#x20;
-
-$$
-P\% = 1 - \frac{\text{\textdollar}MT \text{ bid price}}{\text{\textdollar}MT \text{ balance of collection vault}}
-$$
+* NFT holders can accept the bid to sell their own NFTs to the vault and receive $MT in return.
+* The bid price is initially calculated as 20% of the collection vault balance.
+* After the first vault ask transaction, the initial bid price is set to 75% of the vault's last ask price, increasing by 0.05% per block, with a maximum limit of 20% of the collection vault balance.
 
 ## Vault Ask
 
 * After the NFT holder successfully accepts the bid from the vault, the vault automatically initiates the Dutch Auction for the NFT.
-* The auction ask price starts at 1,000% of the bid price in $MT, and decreases by 1% per 5 blocks.
+* The auction ask price starts at 125% of the bid price in $MT, and decreases by 0.05% per block, reaching a minimum of 1 $MT.
 * Anyone can buy the NFT at the current price.
-* After the auction is completed, 95% of the final price goes directly into the vault, and the remaining 5% is burned.
+* After the auction is completed, 99.5% of the final price goes directly into the vault, and the remaining 0.55% is burned.
 * When a collection is auctioning an NFT, staking $MT is not allowed.
