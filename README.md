@@ -27,10 +27,9 @@ The $MT rewards earned from placing NFTs are allocated directly to the MOPN ERC-
 
 ## Agent Place
 
-* Any player can act as an agent to place other unplaced NFTs and earn different agent reward rates.
-* Players cannot move or claim NFTs they've placed as agents.
-* When an agent-placed NFT is moved, claimed, or bombed, the agent status ends, and the agenter's $MT rewards are settled automatically.
-* The agent reward rate decreases as the number of agent-placed NFTs in the collection increases. The reward rate for the first agent-placed NFT in a collection is 60%, while the nth agent-placed NFT receives a reward rate of $$\textit{60\%} \cdot (1-\textit{0.06\%})^{(n-1)}$$.
+* Any player can act as an agent to place other unplaced NFTs.
+* In the agent status, agents can earn rewards, and the reward rate is related to the number of NFs already placed by agents in that collection.
+* NFTs placed by agents remain in agent status until they be moved, claimed or bombed. When the agent status ends, the $MT reward for the agent is automatically settled.
 
 ## MOPN Token (ERC-20)
 
@@ -45,7 +44,7 @@ For each block, the produced $MT is distributed based on the proportion of Point
 
 When an NFT is placed by the owner, 90% of the earned $MT goes to the NFT's ERC-6551 account, 5% to the collection vault, and 5% to the land's ERC-6551 account where the NFT is placed.&#x20;
 
-If placed by an agenter, the distribution rate for agenter is determined based on the order of placement, with the remaining part of the 90% allocated to the NFT owner.&#x20;
+If placed by an agent, the $MT in the ERC-6551 account is shared between agents and NFT owner, the percentage that agent receive is determined by the number of NFTs already placed by agent within the collection. The first agent placer can receive 60%, while the nth agent placer receives a percentage of  $$\textit{60\%} \cdot (1-\textit{0.06\%})^{(n-1)}$$.
 
 ## MOPN BOMB (ERC-1155)
 

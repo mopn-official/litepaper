@@ -4,7 +4,7 @@
 
 As a map of popular NFTs, the market price of collections is a key indicator. However, when we attempted to integrate collections into the MOPN economic system, we encountered a challenge: as a fully on-chain game, how can we obtain information about NFT prices solely from on-chain data, without relying on a centralized oracle system, and prevent price manipulation?
 
-To address this, we've established collection vault staking as an on-chain oracle, furnishing MOPN with signals regarding collection floor prices.
+To address this, we've established collection vault, which capture signals related to floor prices and trading activity through the bid/ask mechanism. This provides an innovation automated market maker solution for the NFT market.&#x20;
 
 ## Vault
 
