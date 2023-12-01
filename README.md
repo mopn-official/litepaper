@@ -94,4 +94,4 @@ There are three types of tiles, each assigned with different point: Common (+1 p
 
 Every NFT collection holds a unique vault that receives 5% of all $MT mining rewards earned by the NFTs in the collection. The vault also allows anyone to stake $MT.
 
-The collection point is initially set at $$\textit{0.003}\cdot\sqrt{\text{vault\ \$MT}}$$ . After the first vault ask transaction, it becomes the minimum between this value and $$\textit{0.03}\cdot\sqrt{\text{vault last\ ask\ price}}$$.
+The collection point is initially set at $$\textit{0.003}\cdot\sqrt{\text{vault\ \$MT}}$$ . After the first vault ask transaction, it becomes the minimum between this value and $$\textit{0.03}\cdot\sqrt{\text{vault last\ ask-accept\ price}}$$.
