@@ -28,7 +28,7 @@ The $MT rewards earned from placing NFTs are allocated directly to the MOPN ERC-
 ## Agent Place
 
 * Any player can act as an agent to place other unplaced NFTs.
-* In the agent status, agents can earn rewards, and the reward rate is related to the number of NFs already placed by agents in that collection.
+* In the agent status, agents can earn rewards, and the reward rate is related to the number of NFTs already placed by agents in that collection.
 * NFTs placed by agents remain in agent status until they be moved, claimed or bombed. When the agent status ends, the $MT reward for the agent is automatically settled.
 
 ## MOPN Token (ERC-20)
