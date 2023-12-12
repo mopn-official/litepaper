@@ -12,9 +12,9 @@ MOPN: [0x802074b8a4aDA6420811c9ec368349fd3204002F](https://etherscan.io/address/
 
 MOPN Land: [0xbadd22c701a6b782ea47e9b759ba2cfd15f6615f](https://goerli.etherscan.io/token/0xbadd22c701a6b782ea47e9b759ba2cfd15f6615f)
 
-MOPN Token: [0xD5769DcCd133d557FA26399C240a34EadC5065a7](https://goerli.etherscan.io/address/0xD5769DcCd133d557FA26399C240a34EadC5065a7)
+MOPN Token: [0x857cad8598dab2afbcf5358195ee7c03db398f1b](https://goerli.etherscan.io/address/0x857cad8598dab2afbcf5358195ee7c03db398f1b)
 
-MOPN: [0xcE5bde42BB496723aB749d7FFFd5EFF8F9999e2B](https://goerli.etherscan.io/address/0xcE5bde42BB496723aB749d7FFFd5EFF8F9999e2B)
+MOPN: [0x77380c89297054188bc0bc6090341e3dfe046247](https://goerli.etherscan.io/address/0x77380c89297054188bc0bc6090341e3dfe046247)
 
 
 
