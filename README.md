@@ -2,7 +2,7 @@
 
 ## Overview
 
-MOPN (Map Of Populars NFTs) is an infinity fully on-chain game built on Ethereum, open-source, fair launch, no admin.
+MOPN (Map Of Populars NFTs) is an infinity fully on-chain game, open-source, fair launch, no admin.
 
 On a limited public map, players can freely place any ERC-721 NFTs. All NFTs follow the simple rules, engaging in open competition and cooperation, which leads to emergence of order.
 
